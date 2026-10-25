@@ -1,0 +1,12 @@
+generated: '2026-10-25'
+method: searched
+source: https://pypi.org/pypi/wolframclient/json
+packages:
+  - name: wolframclient
+    registry: pypi
+    url: https://pypi.org/project/wolframclient/
+    language: python
+    official: true
+    version: "1.4.1"
+    published: 2023-05-16
+    note: version and publish date taken from PyPI JSON metadata.

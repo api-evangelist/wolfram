@@ -1,0 +1,76 @@
+generated: '2026-10-25'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.wolfram.com/events/technology-conference/2015/fees.html
+sources:
+- https://www.wolfram.com/events/technology-conference/2015/fees.html
+- https://www.wolfram.com/language/11/new-visualization-domains/plan-a-weekend-getaway.html
+name: Wolfram Research pricing
+audience: business-product
+pricing_basis: flat-platform
+plans:
+- name: Early Bird Standard rate
+  price_text: $545
+  price: 545
+  description: Early Bird registration standard rate
+- name: Early Bird Standard rate
+  price_text: $645
+  price: 645
+  description: Early Bird registration standard rate
+- name: Early Bird Discounted rate
+  price_text: $395
+  price: 395
+  description: Early Bird registration discounted rate
+- name: Early Bird Discounted rate
+  price_text: $495
+  price: 495
+  description: Early Bird registration discounted rate
+- name: One-day pass
+  price_text: $75
+  price: 75
+  description: One-day conference pass
+- name: One-day pass
+  price_text: $99
+  price: 99
+  description: One-day conference pass
+- name: 'Wolfram Language: Image Processing Concepts and Methods – Standard'
+  price_text: $165
+  price: 165
+  description: Optional training session standard price
+- name: 'Wolfram Language: Image Processing Concepts and Methods – Discounted'
+  price_text: $115
+  price: 115
+  description: Optional training session discounted price
+- name: 'Wolfram Language: Visualization Fundamentals – Standard'
+  price_text: $165
+  price: 165
+  description: Optional training session standard price
+- name: 'Wolfram Language: Visualization Fundamentals – Discounted'
+  price_text: $115
+  price: 115
+  description: Optional training session discounted price
+- name: 'Wolfram SystemModeler: An Introduction – Standard'
+  price_text: $165
+  price: 165
+  description: Optional training session standard price
+- name: 'Wolfram SystemModeler: An Introduction – Discounted'
+  price_text: $115
+  price: 115
+  description: Optional training session discounted price
+- name: 'Wolfram SystemModeler and Mathematica: Analysis and Model Design – Standard'
+  price_text: $165
+  price: 165
+  description: Optional training session standard price
+- name: 'Wolfram SystemModeler and Mathematica: Analysis and Model Design – Discounted'
+  price_text: $115
+  price: 115
+  description: Optional training session discounted price
+- name: 'Wolfram Language: Programming Fundamentals – Standard'
+  price_text: $165
+  price: 165
+  description: Optional training session standard price
+- name: 'Wolfram Language: Programming Fundamentals – Discounted'
+  price_text: $115
+  price: 115
+  description: Optional training session discounted price
+docs: https://www.wolfram.com/events/technology-conference/2015/fees.html

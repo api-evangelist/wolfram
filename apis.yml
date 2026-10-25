@@ -1,23 +1,76 @@
 aid: wolfram
+
 name: Wolfram Research
-description: 'Wolfram Research is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://www.wolfram.com/share.png
+
+description: 'Wolfram Research, founded by Stephen Wolfram, creates computational technology and knowledge engines. It offers products like Mathematica, Wolfram|One, Wolfram Language, and Wolfram Alpha. The company provides cloud services, AI tools, and APIs for computation, data, and knowledge across science, engineering, finance, and education, enabling developers and enterprises to embed advanced computation into applications.'
+
 url: https://raw.githubusercontent.com/api-evangelist/wolfram/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:g2-catalog
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-25 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-25'
+
 modified: '2026-10-25'
+
 tags:
 - Company
-apis: []
+- Computation
+- AI
+- Cloud
+- Education
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Vendors
+  url: vendors/wolfram-vendors.yml
+- type: Blog
+  url: https://blog.wolfram.com/
+- type: DeveloperPortal
+  url: https://developer.wolframalpha.com/
+- type: Plans
+  url: plans/wolfram-plans-pricing.yml
+- type: LLMsTxt
+  url: llms/wolfram-llms.txt
+- type: Hosts
+  url: hosts/wolfram-hosts.yml
+- type: SDKs
+  url: packages/wolfram-packages.yml
+- type: Packages
+  url: packages/wolfram-packages.yml
+- type: Support
+  url: https://support.wolfram.com/
+- type: SignUp
+  url: https://www.wolfram.com/faculty/register.cgi
+- type: GitHubOrganization
+  url: https://github.com/WolframResearch
+- type: GettingStarted
+  url: https://reference.wolfram.com/language/guide/WolframSystemSetup.html
+- type: DomainSecurity
+  url: security/wolfram-domain-security.yml
 - type: Website
   url: https://wolfram.com/
+
+- type: Documentation
+  url: https://www.wolfram.com/apis/documentation/
+
+apis: []
+x-enrichment:
+  date: '2026-10-25'
+  status: enriched
+  artifacts_added: 12
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

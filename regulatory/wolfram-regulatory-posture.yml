@@ -1,0 +1,20 @@
+generated: '2026-10-25'
+method: probed
+source: https://www.wolfram.com/legal/privacy/data-retention.html
+signals:
+  data_retention:
+    url: https://www.wolfram.com/legal/privacy/data-retention.html
+    evidence:
+      - source: https://www.wolfram.com/legal/privacy/data-retention.html
+        http_status: 200
+        fetched: /tmp/wolfram_data_retention.html
+        quote: "We may retain your Personal Data to fulfill the purposes outlined in this Data Retention Policy Addendum for as long as needed, as allowed or as required by law."
+        note: Retains personal data per GDPR compliance.
+  data_subject_request:
+    url: https://www.wolfram.com/legal/privacy/data-retention.html
+    evidence:
+      - source: https://www.wolfram.com/legal/privacy/data-retention.html
+        http_status: 200
+        fetched: /tmp/wolfram_data_retention.html
+        quote: "If you would like to request a copy of the Personal Data we have for you or have questions about the safeguards we use to protect it, contact us at gdpr@wolfram.com."
+        note: Provides a process for data subject access requests.
